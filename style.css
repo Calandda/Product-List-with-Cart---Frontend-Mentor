@@ -1,5 +1,65 @@
-*{
+/* FONT */
+
+
+
+/* COLOR */
+.color_red{
+    color:  hsl(14, 86%, 42%);
+}
+.color_green{
+    color: hsl(159, 69%, 38%);
+}
+.color_rose50{
+    color: hsl(20, 50%, 98%);
+}
+.color_rose100{
+    color: hsl(13,31%,94%);
+}
+.color_rose300{
+    color: hsl(14,25%,72%);
+}
+.color_rose400{
+    color: hsl(7,20%,60%);
+}
+.color_rose500{
+    color: hsl(12,20%,44%);
+}
+.color_rose900{
+    color: hsl(14, 65%, 9%);
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+
+/* BACKGROUND COLOR */
+
+.colorbg_red{
+    background-color:  hsl(14, 86%, 42%);
+}
+.colorbg_green{
+    background-color: hsl(159, 69%, 38%);
+}
+.colorbg_rose50{
+    background-color: hsl(20, 50%, 98%);
+}
+.colorbg_rose100{
+    background-color: hsl(13,31%,94%);
+}
+.colorbg_rose300{
+    background-color: hsl(14,25%,72%);
+}
+.colorbg_rose400{
+    background-color: hsl(7,20%,60%);
+}
+.colorbg_rose500{
+    background-color: hsl(12,20%,44%);
+}
+.colorbg_rose900{
+    background-color: hsl(14, 65%, 9%);
+}
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
