@@ -1,64 +1,86 @@
 /* FONT */
-
-
+@font-face{
+    font-family: redHatText;
+    src: url('./assets/fonts/static/RedHatText-Bold.ttf');
+}
 
 /* COLOR */
-.color_red{
+.color_Red{
     color:  hsl(14, 86%, 42%);
 }
-.color_green{
+.color_Green{
     color: hsl(159, 69%, 38%);
 }
-.color_rose50{
+.color_Rose50{
     color: hsl(20, 50%, 98%);
 }
-.color_rose100{
+.color_Rose100{
     color: hsl(13,31%,94%);
 }
-.color_rose300{
+.color_Rose300{
     color: hsl(14,25%,72%);
 }
-.color_rose400{
+.color_Rose400{
     color: hsl(7,20%,60%);
 }
-.color_rose500{
+.color_Rose500{
     color: hsl(12,20%,44%);
 }
-.color_rose900{
+.color_Rose900{
     color: hsl(14, 65%, 9%);
 }
 
 
 /* BACKGROUND COLOR */
 
-.colorbg_red{
+.colorbg_Red{
     background-color:  hsl(14, 86%, 42%);
 }
-.colorbg_green{
+.colorbg_Green{
     background-color: hsl(159, 69%, 38%);
 }
-.colorbg_rose50{
+.colorbg_Rose50{
     background-color: hsl(20, 50%, 98%);
 }
-.colorbg_rose100{
+.colorbg_Rose100{
     background-color: hsl(13,31%,94%);
 }
-.colorbg_rose300{
+.colorbg_Rose300{
     background-color: hsl(14,25%,72%);
 }
-.colorbg_rose400{
+.colorbg_Rose400{
     background-color: hsl(7,20%,60%);
 }
-.colorbg_rose500{
+.colorbg_Rose500{
     background-color: hsl(12,20%,44%);
 }
-.colorbg_rose900{
+.colorbg_Rose900{
     background-color: hsl(14, 65%, 9%);
+}
+
+/* GENERAL */
+*{
+    font-family: redHatText;
+}
+
+.sectionCart{
+
+}
+
+    .sectionCart > header > p{
+        margin: 0;
+    }
+
+@media all and (orientation: portrait){
+    .sectionCart{
+        padding: 1rem;
+    }
 }
 
 
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
